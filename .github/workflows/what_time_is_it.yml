@@ -5,5 +5,5 @@ jobs:
   chocola-test:
     runs-on: ubuntu-latest
     steps:
-        -  run: data
+        -  run: date
     
