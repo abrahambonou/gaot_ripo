@@ -1,8 +1,9 @@
 name:  what_time_is_it
 
-on : [push]
-   jobs:
-    build:
+on: [push]
+jobs:
+  chocola-test:
     runs-on: ubuntu-latest
-    run: data
+    steps:
+        -  run: data
     
