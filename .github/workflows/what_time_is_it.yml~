@@ -1,0 +1,11 @@
+name:  what_time_is_it
+
+on : [push]
+
+jobs:
+    Run-Data-After-Each-Push:
+    runs-on: fedora-latest
+
+    steps:
+    run: data
+    

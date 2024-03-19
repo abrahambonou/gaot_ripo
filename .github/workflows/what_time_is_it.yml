@@ -1,0 +1,8 @@
+name:  what_time_is_it
+
+on : [push]
+   jobs:
+    build:
+    runs-on: ubuntu-latest
+    run: data
+    
